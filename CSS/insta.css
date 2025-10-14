@@ -1,0 +1,28 @@
+.foto {
+    display: flex;
+}
+
+img{
+    
+    border-radius: 100%;
+    border: 3px solid;
+    border-color: rgb(14, 218, 14);
+    margin-right: 20px;
+
+}
+.title{
+    display: inline-block;
+    font-size: 45px;
+    margin-bottom: 10px;
+    
+}
+.subtitle{
+    font-style: italic;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    margin-bottom: 10px;
+    
+}
+.botton{
+    
+}

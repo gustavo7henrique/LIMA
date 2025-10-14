@@ -1,0 +1,39 @@
+body{
+    background-color: wheat;
+}
+
+
+
+.faixa{
+   background-color: goldenrod;
+   
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    text-align: center;
+    margin-bottom: 20px;
+   /* margin: 20px 40px 15px 15px -- left, top, right e bottom */
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Home{
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    height: 20px;
+    margin-right: 15px;
+    background-color: gold;
+}
+
+.menu{
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+
+img{
+    display: block;
+}
