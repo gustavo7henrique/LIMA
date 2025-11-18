@@ -8,3 +8,4 @@ alert(imagens.getAttribute('src'));
 
 input.setAttribute('placeholder', 'Digite seu nome')
 imagens.classList.add("esconder")
+

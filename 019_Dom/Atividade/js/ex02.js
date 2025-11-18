@@ -10,4 +10,17 @@ input.setAttribute('placeholder', 'Digite seu nome')
 imagens.classList.add("brain");
 
 const fundo = document.getElementById('fundo');
-fundo.style.backgroundColor = 'aquamarine'
+fundo.style.backgroundColor = 'black'
+
+const titulo = document.getElementById('titulo');
+titulo.style.fontFamily = 'Arial';
+titulo.style.fontSize = '40px';
+titulo.textContent = 'Gustavo Henrique'
+
+const container = document.querySelector('.container')
+
+const paragrafo = '<p>Aprendendo a cada dia no SENAI - Hoje foi InnerHTML e Dom...</p>'
+container.innerHTML += paragrafo;
+
+container.style.backgroundColor = 'gray'
+
