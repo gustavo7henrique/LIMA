@@ -1,0 +1,61 @@
+body{
+   background: linear-gradient(to right, #008F8C, #046865, #023535);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.calculadora{
+    color: white;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    border: solid 2px;
+    border-radius: 25px;
+    padding: 40px;
+    align-items: center;
+}
+
+.titulo{
+    font-style: italic;
+    font-size: 40px;
+    margin-top: 0 ;
+}
+
+.calculadora label {
+  display: block;   /* Faz o label ocupar a linha inteira */
+  margin-bottom: 5px; /* Espaço entre o label e o input */
+  font-size: 18px;
+}
+
+.calculadora input {
+  width: 100%;      /* Faz o input ocupar toda a largura disponível */
+  padding: 10px;
+  margin-bottom: 15px; /* Espaço entre os campos */
+  text-align: center;
+  border-radius: 20px;
+  border: 0;
+}
+
+.calculadora button {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: #008F8C;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #023535;
+
+}
+
+input:hover{
+    background-color: #ddd;
+}
+

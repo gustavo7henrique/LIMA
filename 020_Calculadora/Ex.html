@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/ex.js" defer></script>
+    <link rel="stylesheet" href="/CSS/calculadora.css">
+    <title>Exercício</title>
+</head>
+<body>
+    <div class="calculadora">
+        <h1 class="titulo">Calculadora</h1>
+
+            <label for="num1">Numero 1:</label>
+            <input type="number" id="num1" name="num1" required>
+ 
+            <label for="num2">Numero 2:</label>
+            <input type="number" id="num2" name="num2" required>
+
+        
+            <button type="button" onclick="somar()">+</button>
+            <button type="button" onclick="subtrair()">-</button>
+            <button type="button" onclick="multiplicar()">*</button>
+            <button type="button" onclick="dividir()">/</button>
+            <button type="button" onclick="limpar()">Limpar</button>
+
+            <button type="button" onclick="maior()">Maior</button>
+            <button type="button" onclick="par()">Par</button>
+            <button type="button" onclick="multiplo()">Múltiplo</button>
+            <button type="button" onclick="igual()">Igual</button>
+            <button type="button" onclick="sip()">S= I/P</button>
+            <button type="button" onclick="smd()">S> 10</button>
+            <button type="button" onclick="niN()">Negativo</button>
+
+            <p id="result"></p>
+       
+    </div>
+</body>
+</html>
