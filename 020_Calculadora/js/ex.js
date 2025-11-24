@@ -46,7 +46,7 @@ function par() {
     }
 }
 
-function maior() {
+function multiplo() {
     const valorNum1 = Number(numero1.value);
     const valorNum2 = Number(numero2.value);
 
